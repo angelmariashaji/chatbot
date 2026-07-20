@@ -1,0 +1,349 @@
+Proposed Book Structure
+PART I — Foundations
+Chapter 1 — Introduction to LLMs & RAG (35 Pages)
+
+Why RAG exists and why every production LLM uses retrieval.
+
+Topics
+
+Evolution of NLP
+Rule-based Systems
+Traditional Search Engines
+Deep Learning
+Transformers
+Large Language Models
+How GPT works
+Tokens
+Tokenization
+Attention
+Context Window
+Hallucinations
+Why Fine-Tuning isn't enough
+Parametric Memory
+Non-parametric Memory
+Introduction to RAG
+Complete RAG Lifecycle
+
+Diagrams
+
+Evolution timeline
+Transformer architecture
+GPT generation
+Parametric vs Non-parametric memory
+Complete RAG lifecycle
+
+Interview Questions
+
+25+
+Chapter 2 — Embeddings
+
+40 Pages
+
+Topics
+
+Vector Spaces
+Embedding Mathematics
+Cosine Similarity
+Dot Product
+Euclidean Distance
+Manhattan Distance
+Embedding Models
+OpenAI
+BGE
+E5
+Jina
+Voyage
+Nomic
+Sentence Transformers
+Choosing embedding models
+Fine tuning embeddings
+Embedding Drift
+
+Diagrams
+
+Vector space
+Similarity search
+Embedding pipeline
+
+Interview Questions
+
+30+
+Chapter 3 — Document Processing
+
+45 Pages
+
+Topics
+
+PDF parsing
+OCR
+Images
+Tables
+Emails
+PPT
+HTML
+Markdown
+Code repositories
+Metadata extraction
+Deduplication
+Cleaning
+Versioning
+
+Diagrams
+
+Parsing pipeline
+Metadata extraction
+ETL architecture
+
+Interview Questions
+
+30+
+Chapter 4 — Chunking
+
+50 Pages
+
+Topics
+
+Every chunking strategy
+
+Fixed
+Recursive
+Sentence
+Paragraph
+Sliding Window
+Semantic
+Parent Child
+RAPTOR
+Hierarchical
+Agentic Chunking
+
+Production comparisons
+
+Diagrams
+
+Decision tree
+
+Interview Questions
+
+PART II — Retrieval
+Chapter 5 — Vector Databases
+FAISS
+Pinecone
+Qdrant
+Milvus
+Weaviate
+pgvector
+Chroma
+Redis
+
+Indexes
+
+Flat
+IVF
+PQ
+HNSW
+DiskANN
+ScaNN
+
+Production architectures
+
+Chapter 6 — Retrieval
+
+Huge chapter
+
+Dense Retrieval
+
+Sparse Retrieval
+
+Hybrid Search
+
+BM25
+
+Metadata Filters
+
+Query Expansion
+
+Self Query
+
+HyDE
+
+Parent Document Retrieval
+
+Multi Query
+
+Semantic Search
+
+Production pipelines
+
+Chapter 7 — Re-ranking
+
+Cross Encoders
+
+ColBERT
+
+BGE Reranker
+
+Cohere Rerank
+
+Lost in Middle
+
+Context Compression
+
+PART III — Generation
+Chapter 8 — Prompt Engineering
+
+Prompt Templates
+
+Context Packing
+
+Few Shot
+
+Chain of Thought
+
+Structured Outputs
+
+JSON Mode
+
+Function Calling
+
+Guardrails
+
+Chapter 9 — LLM Generation
+
+Streaming
+
+Temperature
+
+Top-k
+
+Top-p
+
+Sampling
+
+Latency
+
+Context windows
+
+Token optimization
+
+PART IV — Production Patterns
+Chapter 10 — Naive RAG
+Chapter 11 — Advanced RAG
+Chapter 12 — Agentic RAG
+Chapter 13 — GraphRAG
+Chapter 14 — Self RAG
+Chapter 15 — CRAG
+Chapter 16 — RAPTOR
+Chapter 17 — LightRAG
+Chapter 18 — Multi-modal RAG
+Chapter 19 — SQL RAG
+Chapter 20 — Code RAG
+PART V — Production Engineering
+Chapter 21 — Scaling
+
+Redis
+
+Kafka
+
+Streaming
+
+Batch Embeddings
+
+Autoscaling
+
+Horizontal Scaling
+
+GPU inference
+
+Chapter 22 — Security
+
+Prompt Injection
+
+Data Leakage
+
+RBAC
+
+ABAC
+
+PII
+
+Tenant Isolation
+
+Compliance
+
+Chapter 23 — Evaluation
+
+RAGAS
+
+DeepEval
+
+BLEU
+
+ROUGE
+
+Faithfulness
+
+Groundedness
+
+Latency
+
+Cost
+
+Chapter 24 — Observability
+
+LangSmith
+
+Phoenix
+
+OpenTelemetry
+
+Tracing
+
+Logging
+
+Metrics
+
+PART VI — System Design
+
+Enterprise ChatGPT
+
+Healthcare
+
+Finance
+
+Legal
+
+Customer Support
+
+Slack Assistant
+
+Code Assistant
+
+Knowledge Base
+
+PART VII — Interview Preparation
+
+This alone will be over 100 pages.
+
+Includes:
+
+300–500 interview questions
+Detailed answers
+Follow-up questions
+Whiteboard design questions
+Scenario-based debugging
+Trade-off discussions
+PART VIII — Production Code
+
+Complete implementations using:
+
+LangChain
+LlamaIndex
+Haystack
+LangGraph
+FastAPI
+Docker
+Kubernetes
+Redis
+PostgreSQL
+Qdrant
+Pinecone
